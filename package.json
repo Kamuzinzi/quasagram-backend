@@ -1,0 +1,19 @@
+{
+    "name": "quasagram-backend",
+    "version": "1.0.0",
+    "description": "This is backend for quasagram project",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "deploy": "flyctl deploy"
+    },
+    "author": "Egide",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.1",
+        "nodemon": "^3.1.7"
+    },
+    "devDependencies": {
+        "@flydotio/dockerfile": "^0.5.9"
+    }
+}
